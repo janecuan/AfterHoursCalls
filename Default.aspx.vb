@@ -23,6 +23,8 @@ Partial Class _Default
             invisible.Style.Add("display", "none")
             visible.Style.Add("display", "block")
 
+            
+            
         Catch ex As Exception
             If ddlEMPLYEE_NAME.SelectedIndex = 0 Then
                 Err.Text = "Error: Please select a name."
@@ -74,7 +76,6 @@ Partial Class _Default
 
             txtDATE.Text = Now.ToString("MM/dd/yyyy")
         End If
-
 
         
     End Sub
